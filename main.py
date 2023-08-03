@@ -47,3 +47,17 @@ r=(n%m)
 print(r)
 '''
 #Ejercicio 9
+'''
+c=float(input("inversion "))
+a=float(input("interes anual "))
+n=float(input("numero de años "))
+inc=round(c*(a/100+1)**n,2)
+print("capital obtenido",inc)
+'''
+#ejercicio 10
+payasos=float(input("numero de payasos "))
+muñecas=float(input("numero de muñecas "))
+p=112
+m=75
+inc=(p*m)
+print("peso del paquete",inc)
