@@ -55,9 +55,32 @@ inc=round(c*(a/100+1)**n,2)
 print("capital obtenido",inc)
 '''
 #ejercicio 10
+'''
 payasos=float(input("numero de payasos "))
 muñecas=float(input("numero de muñecas "))
 p=112
 m=75
 inc=(p*m)
 print("peso del paquete",inc)
+'''
+#ejercicio 11
+'''
+ahorros=float(input("ingresa la cantidad de dinero depositado"))
+interes=0.04
+formula=(ahorros*interes)
+año1=round((ahorros-formula),2)
+formula2=(ahorros*interes)
+año2=round((ahorros-formula2),2)
+formula3=(ahorros*interes)
+año3=round((ahorros-formula3),2)
+print("la cantidad de ahorros tras el primer año sera de: ",año1,"la cantidad de ahorros tras el primer año sera de: ",año2,"la cantidad de ahorros tras el primer año sera de: ",año3)
+'''
+#ejercicio 12
+'''
+panesv=int(input("ingresa el numero de panes vendidos que no son del dia: "))
+pan=3000
+descuento=0.4
+formula1=(panesv*pan)
+formula2=(formula1*descuento)
+print("el percio habitual de",panesv,"panes es de",formula1,"pero al no ser del dia tienen descuento del 40%, por lo que pagarias",formula2 )
+'''
