@@ -84,3 +84,15 @@ formula1=(panesv*pan)
 formula2=(formula1*descuento)
 print("el percio habitual de",panesv,"panes es de",formula1,"pero al no ser del dia tienen descuento del 40%, por lo que pagarias",formula2 )
 '''
+
+#ejercicio 1
+'''
+n=int(input("digita el numero entero "))
+suma=(n*(n+1)/2)
+if suma>20:
+  print("es un gran numero")
+else:
+  print(suma)
+'''
+#ejercicio 2
+
