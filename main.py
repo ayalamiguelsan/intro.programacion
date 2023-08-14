@@ -95,4 +95,27 @@ else:
   print(suma)
 '''
 #ejercicio 2
-
+'''
+n=int(input("numero entero "))
+m=int(input("numero entero "))
+c=(n/m)
+print(c)
+r=(n%m)
+print(r)
+if c<1:
+  print("es un gran numero")
+else c>1:    
+  print(suma)
+'''
+#ejercicio 3
+invertir =float(input("ingresa la cantidad a invertir: "))
+interes=float(input("ingresa el interes anual: "))
+años=float(input("ingresa el numero de años: "))
+formula=(invertir*((interes/100)+1)**años)
+if formula < 100000:
+  print("baja rentabilidad")
+elif 100000<formula>1000000:
+  print("rentabilidad baja")
+else:
+  print("es una buena inversion")
+  
