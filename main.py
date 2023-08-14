@@ -108,6 +108,7 @@ else c>1:
   print(suma)
 '''
 #ejercicio 3
+'''
 invertir =float(input("ingresa la cantidad a invertir: "))
 interes=float(input("ingresa el interes anual: "))
 años=float(input("ingresa el numero de años: "))
@@ -118,4 +119,5 @@ elif 100000<formula>1000000:
   print("rentabilidad baja")
 else:
   print("es una buena inversion")
-  
+'''
+#ejercicio 4
